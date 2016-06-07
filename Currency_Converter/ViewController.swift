@@ -5,6 +5,7 @@
 //  Created by Khalid Naseem on 04/06/2016.
 //  Copyright © 2016 Khalid Naseem. All rights reserved.
 //
+// Added Currency Symbols
 
 import UIKit
 
