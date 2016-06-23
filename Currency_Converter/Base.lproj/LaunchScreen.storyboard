@@ -16,12 +16,29 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iTunesArtwork" translatesAutoresizingMaskIntoConstraints="NO" id="HId-gM-Wqb">
+                                <rect key="frame" x="169.5" y="209" width="261" height="182"/>
+                                <color key="backgroundColor" red="0.047844363649999999" green="0.81854533090000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="261" id="D8E-pq-Jnc"/>
+                                    <constraint firstAttribute="height" constant="182" id="SLD-Ai-RCa"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HId-gM-Wqb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="GNM-br-Yun"/>
+                            <constraint firstItem="HId-gM-Wqb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UcW-bc-fxL"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="435" y="159"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="iTunesArtwork" width="512" height="512"/>
+    </resources>
 </document>
